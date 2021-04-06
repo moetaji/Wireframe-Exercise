@@ -1,0 +1,59 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+background-color: whitesmoke;
+font-family: serif;
+padding: 10px;
+font-weight: bold;
+font-size: x-large;
+text-align: center;
+}
+header{
+    background-color: gray;
+}
+header img{
+padding-right: 100%;
+
+}
+header nav{
+margin: 20px;
+}
+header nav ul li{
+display: inline;
+top: 50px;
+margin-left: 200px;
+}
+section1 img{
+    float: left;
+    margin:0 auto;
+
+}
+section1{
+    display: flex;
+    padding: 25px;
+    
+}
+section3{
+    display: inline-block;
+    margin:0 auto;
+}
+section3 p{
+    background-color:whitesmoke;
+  width: 510px;
+  height: 210px;
+  overflow: scroll;
+  float: right;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+   height:40px ;
+   width: 100%;
+   background-color: gray;
+}
